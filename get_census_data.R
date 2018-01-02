@@ -81,7 +81,6 @@ sex.by.age.dt[, county_name := row.names(sex.by.age.est)]
 
 sex.by.age.dt <- melt(sex.by.age.dt, id.vars = "county_name")
 
-foreign.born <- acs.fetch(geo = all.cntys, endyear=2015, table.number="B05006")
 
 
 
